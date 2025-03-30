@@ -1,0 +1,11 @@
+.primeiroElemento{
+    background-color: #000000;
+    color: #ffffff;
+}
+.segundoElemento{
+    background-color: #ffff00;
+}
+.primeiroElemento, .segundoElemento{
+    font-family: Helvetica, sans-serif;
+    font-size: 28px;
+}
