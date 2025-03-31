@@ -2,6 +2,7 @@
 
 html, body {
   height: 100%;
+  box-sizing: content-box;
 }
 
 body {
@@ -20,6 +21,21 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
+}
+.container-principal{
+  margin: 10px;
+  padding: 5px;
+}
+.container-secundario{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.text{
+  margin-bottom: 15px;
+  margin-right: 24px;
 }
 
 .icon {
@@ -33,6 +49,9 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  min-width: 42px;
+  margin-left: 10px;
+  margin-top: 15px;
 }
 
 .close-button {
